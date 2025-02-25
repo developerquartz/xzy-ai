@@ -1,0 +1,40 @@
+.sidebarCstm, .commonTab .tab-content .cardCstm {
+    box-shadow: rgb(228, 234, 237) 0px 0px 6px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.commonTab .tab-content .cardCstm {
+    min-height: calc(100vh - 160px);
+}
+.sidebarCstm .nav .nav-link {
+    font-size: 12px;
+    color: #000;
+}
+.sidebarCstm .nav .nav-link svg {
+    width: 22px;
+    height: 22px;
+}
+
+.sidebarCstm .nav .nav-link.active svg path {
+    fill: #7330ed;
+}
+.sidebarCstm .nav .nav-link.active {
+    color: #7330ed;
+}
+.sidebarCstm .top p {
+    font-weight: 500;
+    font-size: 12px;
+}
+.listCardWrp .ListCard {
+    background: #F6F6F6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.listCardWrp .ListCard p {
+    font-size: 12px;
+    font-weight: 500;
+}
+.commonTab .tab-content {
+    font-size: 13px;
+    line-height: 25px;
+}

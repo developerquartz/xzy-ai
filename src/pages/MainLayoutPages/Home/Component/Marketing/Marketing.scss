@@ -1,0 +1,17 @@
+section.marketing .logoIcn img {
+    height: 90px;
+    object-fit: contain;
+}
+section.marketing .cardCstm {
+    border-radius: 13px;
+    border: 1px solid #FBFBFC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+}
+section.marketing .cardCstm .top img {
+    height: 40px;
+    object-fit: contain;
+}
+section.marketing .cardCstm .top .content .labelWrp {
+    background: #E9423A;
+    font-size: 12px;
+}

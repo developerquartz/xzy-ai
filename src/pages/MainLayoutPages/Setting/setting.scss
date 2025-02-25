@@ -1,0 +1,6 @@
+section.Setting .underLineTab.nav {
+    border-bottom: 3px solid #898989;
+}
+section.Setting .underLineTab.nav .nav-link:after {
+    bottom: -3px;
+}

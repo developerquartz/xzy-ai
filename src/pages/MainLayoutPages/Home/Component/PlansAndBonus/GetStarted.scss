@@ -1,0 +1,62 @@
+section.getStarted {
+    background: linear-gradient(180deg, #EBE1FD 0%, #FEFEFF 100%);
+}
+.getStarted .cardCstm {
+    border-radius: 20px;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.07);
+}
+.pricingCard .cardCstm {
+    background: radial-gradient(circle at 50% 100%,rgba(115,48,237,.13),#fff);
+    border: 1px solid #ebebeF;
+    box-shadow: 0 2px 6px -3px rgba(0,0,0,.2);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.pricingCard .cardCstm.active {
+ border: 1px solid #ac38fa;
+}
+.pricingCard .cardCstm .popuplar-tag {
+    width: 200px;
+    background: #28257e;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 20px;
+    bottom: auto;
+    left: auto;
+    right: -65px;
+    transform: rotate(45deg);
+}
+
+.pricingCard .cardCstm .labelBg {
+    display: inline-block;
+    background: #ac38fa;
+}
+.pricingCard .cardCstm .commonList p {
+    font-weight: 500;
+    color: #28257e;
+}
+.pricingCard .cardCstm .commonList p {
+    font-weight: 500;
+    color: #28257e;
+}
+.pricingCard .cardCstm .top .price p {
+    text-align: center;
+    background-image: url("../../../../../Assets/Images/bgPrice.png");
+    background-position: 50%;
+    background-size: cover;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 8px;
+}
+.pricingCard .cardCstm .top .btnWrp .btn.bg-white {
+    border: 1px solid #d6d7e0;
+    background-color: #d6d7e0;
+    background-image: linear-gradient(to bottom,white,#ebebef);
+    height: 50px;
+    padding: 0 30px;
+    width: 100%;
+    font-size: 14px;
+}

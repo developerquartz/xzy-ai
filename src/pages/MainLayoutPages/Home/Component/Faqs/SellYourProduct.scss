@@ -1,0 +1,36 @@
+
+section.SellYourProduct .accordion-item {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.07);
+}
+
+section.SellYourProduct .accordion-item button {
+    background: #fff;
+    color: #7330ED;
+    font-weight: 700;
+}
+
+section.SellYourProduct .accordion-item button:after {
+    position: absolute;
+    content: "";
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+    background: unset;
+    height: 9px;
+    width: 9px;
+    border-bottom: 1px solid #6D7D93;
+    border-left: 1px solid #6D7D93;
+}
+
+section.SellYourProduct .accordion-item button:not(.collapsed):after {
+    transform: translateY(-50%) rotate(-45deg);
+}
+section.SellYourProduct .accordion-item button {
+    background: #fff;
+    color: #7330ED;
+    font-weight: 700;
+    border-radius: 15px !important;
+    padding: 20px 34px;
+}
